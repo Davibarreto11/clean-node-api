@@ -2,7 +2,7 @@ import { SignUpController } from './signup'
 import { MissingParamError } from '../errors/missing-param-error'
 
 describe('SignUp Controller', () => {
-  test('Sould return 400 if name is provided', () => {
+  test('Sould return 400 if no name is provided', () => {
     const sut = new SignUpController()
     const httpRequest = {
       body: {
