@@ -1,5 +1,5 @@
-import { ServerError } from '../errors/server.error'
 import { type HttpResponse } from '../protocols/http'
+import { ServerError } from '../errors'
 
 // Sintax sugar, o "()" envolve o que é para ser retornado
 export const badRequest = (error: Error): HttpResponse => ({
