@@ -11,8 +11,8 @@ interface SutTypes {
   sut: BcryptAdapter
 }
 
+const salt = 8
 const makeSut = (): SutTypes => {
-  const salt = 8
   const sut = new BcryptAdapter(salt)
   return {
     sut
@@ -21,7 +21,6 @@ const makeSut = (): SutTypes => {
 
 describe('Bcrypt Adapter', () => {
   test('Should call bcrypt with correct values', async () => {
-    const salt = 8
     const { sut } = makeSut()
     const hashSpy = jest.spyOn(bcrypt, 'hash')
     await sut.encrypt('any_value')
