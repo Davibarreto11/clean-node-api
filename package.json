@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -L --watch ./dist ./dist/main/server.js",
+    "start": "sucrase-node src/main/server.ts",
     "build": "rimraf dist && tsc -p tsconfig.build.json",
     "up": "npm run build && docker compose up",
     "test": "jest --passWithNoTests --runInBand --no-cache",
@@ -40,6 +40,7 @@
     "lint-staged": "^13.0.1",
     "mockdate": "^3.0.5",
     "rimraf": "^3.0.2",
+    "sucrase": "^3.34.0",
     "supertest": "^6.2.3",
     "ts-jest": "^28.0.4",
     "typescript": "^4.7.3"
