@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Usuario\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --dev \
+
+PATH: 
+  C:\Program Files\Microsoft\jdk-11.0.20.8-hotspot\bin;C:\xampp\php;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Users\Usuario\node_modules\yarn\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Git\cmd;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Users\Usuario\AppData\Local\Android\Sdk;C:\Users\Usuario\AppData\Local\Android\Sdk\platform-tools;C:\Users\Usuario\AppData\Local\Android\Sdk\tools;C:\Users\Usuario\AppData\Local\Android\Sdk\platform-tools;C:\Users\Usuario\AppData\Local\Android\Sdk\tools;C:\Users\Usuario\AppData\Local\jdk-11.0.2\bin;C:\Users\Usuario\AppData\Local\jdk-11.0.2\bin;C:\Users\Usuario\AppData\Local\Microsoft\WindowsApps;;C:\Users\Usuario\AppData\Local\Programs\Microsoft VS Code\bin;d:\Users\Usuario\Desktop\Hyper\resources\bin;D:\Hyper\resources\bin;C:\Users\Usuario\AppData\Roaming\Composer\vendor\bin;D:\Users\Usuario\Desktop\Hyper\resources\bin;C:\Users\Usuario\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.9.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EBUSY: resource busy or locked, lstat 'D:\DumpStack.log.tmp'
+
+npm manifest: 
+  {
+    "name": "clean-node-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@types/node": "^20.9.2",
+      "git-commit-msg-linter": "^5.0.4",
+      "typescript": "^5.3.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
